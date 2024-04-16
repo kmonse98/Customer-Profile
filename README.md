@@ -1,0 +1,21 @@
+# **SOBRE EL PROYECTO**
+
+Este proyecto de Exploratory Data Analysis (EDA) y de Extract Transform Load (ETL) tiene como objetivo limpiar, preparar, analizar y visualizar un conjunto de datos que una entidad bancaria ha proporcionado a una empresa de marketing encargada de contactar telefónicamente a posibles clientes para determinar si están interesados o no en adquirir un certificado de depósito a término con el banco. Nuestro fin es obtener conocimientos e insights relacionados en perfil del cliente para responder la siguiente pregunta:
+
+¿Qué perfil tienen los clientes con mayor potencial de conversión?
+
+El conjunto de datos utilizado en el proyecto contiene información personal sobre el cliente, como estado civil, edad, nivel de estudios, asi como datos relacionados a su historial crediticio y los resultados del proceso de la campaña de marketing: forma de contanto, número de veces en que se le contactó, resultado de la campala de marketing anterior etc. El proceso de análisis y limpieza de datos aborda diversos aspectos para garantizar la calidad y relevancia de los resultados.
+
+### **Pasos del Proyecto:**
+
+Carga y Exploración de Datos: El proyecto comienza con la carga del conjunto de datos. Se realiza una exploración inicial para conocer las dimensiones del dataset, tipos de datos y la presencia de valores nulos.
+
+Limpieza de Datos: Se procede a limpiar el conjunto de datos eliminando columnas irrelevantes o duplicadas que no aportan valor al análisis. Los registros duplicados, si los hubiera, se identifican y eliminan para mantener la integridad del análisis. Se trata el manejo de valores nulos o faltantes mediante técnicas como imputación, eliminación o asignación de valores predeterminados según el contexto.
+
+Tratamiento de Outliers: Los outliers o valores atípicos en las variables numéricas se detectan mediante el cálculo del rango intercuartil (IQR) y se evalúan para determinar su relevancia. Se decide cómo manejar los outliers, ya sea eliminándolos, truncándolos o aplicando transformaciones para reducir su impacto en el análisis.
+
+Análisis y Visualización: Se lleva a cabo un análisis estadístico y exploratorio de los datos para identificar patrones, relaciones y tendencias. Se crean gráficos e visualizaciones informativas, como histogramas, gráficos de barras, diagramas de dispersión y mapas, para representar los datos de manera clara y concisa. Se evalúa la correlación entre variables para identificar posibles relaciones significativas.
+
+Conclusiones e Insights: Con base en el análisis y las visualizaciones, se extraen conclusiones sobre el tipo de perfil del cliente que podrían estar interesados en adquirir un depósito a termino con el banco. Se resumen los principales hallazgos y se proporcionan recomendaciones basadas en la información obtenida. El proyecto se presenta en un entorno de Jupyter Notebook para que los usuarios puedan seguir los pasos del análisis y reproducir los resultados. Además, se incluye una documentación detallada que explica el proceso y las decisiones tomadas durante el análisis.
+
+El objetivo final de este proyecto es proporcionar una visión completa y confiable del panorama del perfil de un cliente potencial, lo que puede ser útil para la toma de decisiones estratégicas, el benchmarking de salarios y el análisis de compensaciones en empresas e industrias.
